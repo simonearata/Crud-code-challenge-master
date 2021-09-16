@@ -15,3 +15,5 @@ Istruzioni
 8) php artisan migrate
 
 9) php artisan db:seed
+
+Se avessi avuto più tempo avrei gestito gli errori e avrei inserito l'autenticazione per accedere e modificare o eliminare gli inputs.
