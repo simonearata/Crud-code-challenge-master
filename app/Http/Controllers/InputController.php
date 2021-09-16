@@ -39,6 +39,7 @@ class InputController extends Controller
         $data = $request->all();
 
         $new_input = new Input();
+        $new_input->nome_input = $data['nome_input'];
         $new_input->title = $data['title'];
         $new_input->content = $data['content'];
         $new_input->url = $data['url'];

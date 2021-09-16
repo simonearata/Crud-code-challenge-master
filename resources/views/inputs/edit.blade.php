@@ -8,7 +8,12 @@
       @csrf
       @method('PATCH')
 
-      <div>
+        <div>
+          <label for="nome_input">Nome input</label>
+          <input type="text" name='nome_input' id="nome_input" value="{{ $input->nome_input }}"> 
+        </div>
+
+        <div>
           <label for="title">Titolo</label>
           <input type="text" name='title' id="title" value="{{ $input->title }}"> 
         </div>

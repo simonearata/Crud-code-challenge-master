@@ -10,6 +10,7 @@
         <thead>
           <tr>
             <th>ID</th>
+            <th>Nome input</th>
             <th>Title</th>
             <th>Content</th>
             <th>Url</th>
@@ -20,6 +21,7 @@
           @foreach ($inputs as $input)
             <tr>
               <td>{{ $input->id }}</td>
+              <td>{{ $input->nome_input }}</td>
               <td>{{ $input->title }}</td>
               <td>{{ $input->content }}</td>
               <td>{{ $input->url }}</td>

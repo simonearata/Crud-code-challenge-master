@@ -15,6 +15,7 @@ class CreateInputsTable extends Migration
     {
         Schema::create('inputs', function (Blueprint $table) {
             $table->id();
+            $table->string('nome_input');
             $table->string('title');
             $table->text('content');
             $table->string('url');

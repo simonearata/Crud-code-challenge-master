@@ -16,6 +16,7 @@ class InputTableSeeder extends Seeder
         foreach($array_input as $input_item){
 
             $new_input = new Input();
+            $new_input->nome_input = $input_item['nome_input'];
             $new_input->title = $input_item['titolo'];
             $new_input->content = $input_item['testo'];
             $new_input->url = $input_item['url'];
